@@ -1,0 +1,7 @@
+{
+  "name": "task1.8",
+  "version": "1.0.0",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}

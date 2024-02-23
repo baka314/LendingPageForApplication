@@ -1,0 +1,375 @@
+html body {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+html .sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
+html .page {
+  width: 100%;
+  height: 100vh; }
+
+.tittle {
+  font-size: 48px;
+  margin-top: 70px;
+  width: 500px;
+  font-family: "Agency FB";
+  font-weight: bold; }
+
+#page1 {
+  background-image: url("1pageBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #page1 .text-box {
+    position: absolute;
+    display: block;
+    max-width: 500px;
+    margin-left: 110px;
+    font-family: Alef;
+    margin-top: 100px; }
+    #page1 .text-box .tittle {
+      font-size: 42px;
+      margin-top: 70px;
+      width: 500px; }
+    #page1 .text-box .text {
+      font-size: 22px;
+      font-family: Alef; }
+  #page1 img.mobileImg {
+    margin-top: 100px;
+    position: relative;
+    margin-left: 900px;
+    background-image: url("mobileImg.png"); }
+  #page1 .button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    height: min-content; }
+    #page1 .button-box a a:hover {
+      cursor: pointer; }
+    #page1 .button-box a button {
+      margin: 35px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 180px;
+      height: 60px;
+      border: unset; }
+    #page1 .button-box a .googlePlay {
+      background-image: url("getOnGooglePlay.jpg"); }
+    #page1 .button-box a .appStore {
+      background-image: url("getOnAppStore.jpg"); }
+  #page1 .header1 {
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 25px;
+    width: 100%;
+    height: min-content;
+    background-color: rgba(255, 255, 255, 0.65); }
+    #page1 .header1 #company-brand {
+      display: flex;
+      background-image: url("label.png");
+      width: 108px;
+      height: 43px;
+      margin-left: 160px;
+      background-size: cover; }
+    #page1 .header1 table {
+      display: flex;
+      margin-left: 600px;
+      position: static;
+      font-family: Alef; }
+      #page1 .header1 table .menu {
+        text-decoration: unset;
+        color: black; }
+      #page1 .header1 table #navToHome {
+        color: chocolate; }
+      #page1 .header1 table td {
+        padding-left: 30px;
+        padding-right: 30px; }
+
+#page2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  justify-content: center;
+  margin-top: 0; }
+  #page2 .content-box {
+    position: relative;
+    width: 225px;
+    height: 290px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 5px 10px 50px 0px #EA912780;
+    align-content: center;
+    z-index: 3; }
+    #page2 .content-box .title {
+      margin-top: 0;
+      padding-top: 0; }
+    #page2 .content-box .foxImg {
+      margin-bottom: 15px;
+      margin-left: 10px;
+      height: 150px;
+      border-right: white 45px solid;
+      width: 170px;
+      align-self: center;
+      background: none; }
+  #page2 #content-box1 {
+    margin-left: 110px;
+    justify-self: flex-start;
+    bottom: 100px; }
+  #page2 #content-box2 {
+    margin-bottom: 10px; }
+  #page2 #content-box3 {
+    justify-self: flex-start;
+    bottom: 100px; }
+  #page2 .column1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; }
+  #page2 .column2 {
+    margin-right: 200px; }
+  #page2 .dots {
+    position: relative;
+    height: 120px;
+    width: 120px;
+    z-index: 2; }
+  #page2 #dot1 {
+    top: 290px;
+    margin-left: 60px; }
+  #page2 #dot2 {
+    top: 70px;
+    margin-left: 160px; }
+  #page2 #dot3 {
+    top: 280px;
+    margin-left: 170px; }
+  #page2 .box-tittle {
+    font-family: Alef;
+    margin: 0 5px 5px 15px;
+    align-self: flex-start; }
+  #page2 .text {
+    margin-left: 15px;
+    font-family: Alef; }
+  #page2 .box-link {
+    font-family: Alef;
+    font-weight: lighter;
+    font-size: smaller;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 110px;
+    height: 40px;
+    background-color: white;
+    color: chocolate; }
+  #page2 .box-link:hover {
+    cursor: pointer; }
+
+#page3 {
+  height: max-content;
+  padding-top: 150px; }
+  #page3 .how_it_works {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #CC5520;
+    align-content: center; }
+  #page3 .tittle {
+    align-self: center;
+    margin-left: 90px;
+    color: white;
+    font-size: 25px;
+    padding-left: 250px; }
+  #page3 .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  #page3 .icon {
+    display: flex;
+    flex-direction: column; }
+    #page3 .icon .iconSvg {
+      align-self: center; }
+    #page3 .icon .iconSvg:hover {
+      cursor: pointer; }
+    #page3 .icon h6 {
+      font-size: 16px;
+      margin-bottom: 0;
+      margin-top: 20px; }
+    #page3 .icon h6:hover {
+      cursor: pointer; }
+    #page3 .icon .text {
+      font-family: Alef;
+      color: white;
+      align-self: center; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 280px;
+  background-color: #CC5520; }
+  .footer .main-footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 120px; }
+  .footer .rights-buttons {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-right: 40px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: white 2px solid;
+    flex-grow: 3;
+    justify-self: flex-end; }
+    .footer .rights-buttons .text {
+      font-size: 15px;
+      font-family: Arial;
+      color: white;
+      margin-left: 50px; }
+    .footer .rights-buttons .media-btn {
+      margin-top: 10px;
+      align-self: flex-end;
+      margin-left: 10px; }
+  .footer .main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-items: center;
+    justify-content: space-between; }
+    .footer .main-footer .brand-label {
+      position: page; }
+  .footer .footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-items: stretch;
+    margin-top: 10px;
+    margin-left: 100px; }
+  .footer .text {
+    font-size: smaller;
+    font-family: Arial;
+    color: white;
+    font-size: 13px; }
+  .footer .brand-label {
+    display: flex;
+    height: 55px;
+    width: 138px; }
+  .footer td {
+    align-self: flex-start; }
+  .footer .col1, .footer .col2, .footer .col3 {
+    width: 140px;
+    display: flex;
+    justify-self: flex-start;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    margin-right: auto;
+    align-items: stretch; }
+  .footer td, .footer th {
+    color: white;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 11px; }
+  .footer th {
+    text-decoration: underline;
+    font-size: 16px; }
+  .footer tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    margin-top: 7px; }
+  .footer .subscription-container {
+    margin-right: 120px; }
+    .footer .subscription-container #subscription-text {
+      font-size: 12px;
+      width: 350px;
+      font-weight: lighter;
+      margin-bottom: 25px; }
+    .footer .subscription-container .subscription-btn {
+      height: 36px; }
+    .footer .subscription-container .subscription-btn:hover {
+      cursor: pointer; }
+    .footer .subscription-container #email {
+      height: 36px;
+      width: 218px;
+      margin-right: 40px; }
+
+#page4 {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr; }
+  #page4 .tittle {
+    display: flex;
+    margin-right: 100px;
+    grid-column: 2;
+    order: 1;
+    font-size: 50px;
+    background-color: #CC5520;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; }
+  #page4 .rectangleForFox {
+    width: 570px;
+    height: 380px;
+    background-color: #FFE9D0;
+    display: flex;
+    margin-top: 30px;
+    margin-right: auto;
+    grid-row: 2;
+    grid-column: 1; }
+  #page4 .fox-icon {
+    height: 438px;
+    width: 383px;
+    position: relative;
+    bottom: 130px;
+    margin-left: 120px; }
+  #page4 .quoteMarks {
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    right: 15px;
+    order: 2; }
+  #page4 .slider {
+    position: relative;
+    top: 60px;
+    color: darkslategray;
+    grid-column: 2;
+    grid-row: 2;
+    width: 520px;
+    font-family: Alef;
+    font-size: 18px; }
+  #page4 h5 {
+    margin-top: 30px;
+    color: black;
+    font-size: 30px;
+    font-family: Alef; }
+  #page4 .button-box {
+    display: flex;
+    align-content: stretch;
+    width: max-content;
+    position: relative;
+    grid-column: 2;
+    grid-row: 4;
+    bottom: 220px;
+    margin-top: 30px; }
+    #page4 .button-box button {
+      margin: 35px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 180px;
+      height: 60px;
+      border: unset; }
+    #page4 .button-box .googlePlay {
+      background-image: url("getOnGooglePlay.jpg"); }
+    #page4 .button-box .appStore {
+      background-image: url("getOnAppStore.jpg"); }
+
+/*# sourceMappingURL=style.css.map */
